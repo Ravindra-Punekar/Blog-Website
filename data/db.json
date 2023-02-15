@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "First Blog",
+      "body": "My First Blog -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus sit amet luctus venenatis lectus magna fringilla. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. In massa tempor nec feugiat nisl pretium fusce. Amet nulla facilisi morbi tempus.",
+      "author": "moti",
+      "id": 1
+    },
+    {
+      "title": "React project",
+      "body": "My First Project",
+      "author": "ravindra",
+      "id": 3
+    }
+  ]
+}
