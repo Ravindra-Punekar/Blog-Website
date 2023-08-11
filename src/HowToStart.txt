@@ -1,0 +1,7 @@
+open terminal
+Run this command-
+npm run start
+
+open new terminal
+then Run-
+npx json-server --watch data/db.json --port 8000 

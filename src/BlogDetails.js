@@ -23,8 +23,8 @@ const BlogDetails = () => {
             { blog && (
                 <article>
                 <h2>{ blog.title }</h2>
-                <p>Written by {blog.author}</p>
-                <div>{blog.body}</div>
+                <p className="author-name">Written by {blog.author}</p>
+                <div style={{ whiteSpace: 'pre-line' }}>{blog.body}</div>
                 <button onClick={handleClick}>delete</button>
                 </article>
             )

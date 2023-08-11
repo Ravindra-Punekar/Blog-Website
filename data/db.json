@@ -11,6 +11,24 @@
       "body": "My First Project",
       "author": "ravindra",
       "id": 3
+    },
+    {
+      "title": "Test",
+      "body": "hello",
+      "author": "ravindra",
+      "id": 4
+    },
+    {
+      "title": "Direct to db",
+      "body": "My First Blog -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus sit amet luctus venenatis lectus magna fringilla. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. In massa tempor nec feugiat nisl pretium fusce. Amet nulla facilisi morbi tempus.",
+      "author": "Guest",
+      "id": 7
+    },
+    {
+      "title": "dxdsfsg",
+      "body": ".navbar a:hover {\n  color: #f1356d;\n}\n.content {\n  max-width: 800px;\n  margin: 40px auto;\n  padding: 20px;\n}",
+      "author": "ravindra",
+      "id": 8
     }
   ]
 }
