@@ -25,8 +25,8 @@
       "id": 7
     },
     {
-      "title": "dxdsfsg",
-      "body": ".navbar a:hover {\n  color: #f1356d;\n}\n.content {\n  max-width: 800px;\n  margin: 40px auto;\n  padding: 20px;\n}",
+      "title": "About this Project",
+      "body": "Developed a responsive blog website using React.js and JSON as the database.\nImplemented key features including adding new blogs with title, author, and body sections, as well as the ability to delete blogs.\n\nTechnologies Used:\n\nReact.js\nJSON\nHTML\nCSS\n",
       "author": "ravindra",
       "id": 8
     }
