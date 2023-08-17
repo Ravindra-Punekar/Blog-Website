@@ -5,3 +5,36 @@ npm run start
 open new terminal
 then Run-
 npx json-server --watch data/db.json --port 8000 
+
+
+
+Create a Netlify account and create a new site.
+Connect your GitHub, GitLab, or BitBucket repository to Netlify.
+In your project's repository, create a file called .env. This file will contain your environment variables, such as the port numbers for your frontend and backend.
+REACT_APP_PORT=3000
+JSON_DATABASE_PORT=8000
+In your project's repository, create a file called netlify.toml. This file will contain the configuration settings for your Netlify deployment.
+[build]
+command = "npm run build"
+publish = "dist"
+
+[functions]
+# The port number for your backend
+port = 5000
+
+# The URL of your backend
+backend_url = "http://localhost:8000"
+In your project's repository, add the following line to your package.json file:
+"scripts": {
+"start": "npm run build && npm run start:client && npx json-server --watch data/db.json --port 8000"
+}
+
+This will tell Netlify to run the json-server command when you deploy your project.
+
+Push your changes to your repository. Netlify will automatically deploy your project.
+Once you have deployed your project, you can access the frontend on the following URL:
+
+https://<your-project-name>.netlify.app/
+And you can access the backend on the following URL:
+
+http://<your-project-name>.netlify.app:5000/
