@@ -3,8 +3,6 @@ command = "npm run build"
 publish = "dist"
 
 [functions]
-# The port number for your backend
-port = 5000
 
-# The URL of your backend
-backend_url = "http://localhost:8000"
+    [functions.port]
+    port = 5000
